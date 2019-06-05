@@ -3,7 +3,7 @@
 
 <head>
     <meta charset=utf-8 />
-    <title>Title of page</title>
+    <title>DUPAGE COUNTY, IL</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
@@ -136,7 +136,14 @@
             <div class="first-column">
                 <p>Dupage County is a suburban county of the greater Chicago metropolitan area. The county is ranked second in Illinois in terms of population which as of 2010 was 916,000 people. It is one of the most highly developed and suburbanized counties in Illinois and in the U.S. Land area makes up 327 square miles and 8.9 miles is comprised of water, primarily the Fox and Dupage Rivers.</p>
 
-                <p>The Forest Preserve District of DuPage County owns and manages 25,000 acres (10,000 ha) of prairies, woodlands and wetlands. More than 4 million visitors each year enjoy 60 forest preserves, 145 miles of trails, and five education centers.[40] Local urban parks include Lombard's Lilacia Park, Naperville's Centennial Beach, Woodridge's Cypress Cove Family Aquatic Park and Wheaton's Cosley Zoo. Privately funded attractions include Lisle's Morton Arboretum. In the 1980s, DuPage County also had another major attraction, Ebenezer Floppen Slopper's Wonderful Water slides in Oakbrook Terrace, which today, stands abandoned and neglected. The Illinois Prairie Path, a 61-mile (98 km) rail-to-trail multi-use path, runs through Cook, DuPage and Kane Counties. It intersects with the Great Western Trail at several points, as well as the Fox River Trail at a few points. Source:<a href="https://github.com/Tscholten1?tab=repositories/">Wikipedia</a></p>
+                <p>The Forest Preserve District of DuPage County owns and manages 25,000 acres (10,000 ha) of prairies, woodlands and wetlands. </p>
+                    <p>"More than 4 million visitors each year enjoy 60 forest preserves, 145 miles of trails, and five education centers. Local urban parks include Lombard's Lilacia Park, Naperville's Centennial Beach, Woodridge's Cypress Cove Family Aquatic Park and Wheaton's Cosley Zoo. Privately funded attractions include Lisle's Morton Arboretum.""
+                    <br>
+                    Source: <a href="http://dupagegop.org/welcome-to-dupage-county/">Welcome to DuPage County</a></p>
+                        
+                    <p>In the 1980s, DuPage County also had another major attraction, Ebenezer Floppen Slopper's Wonderful Water slides in Oakbrook Terrace, which today, stands abandoned and neglected. The Illinois Prairie Path, a 61-mile (98 km) rail-to-trail multi-use path, runs through Cook, DuPage and Kane Counties. It intersects with the Great Western Trail at several points, as well as the Fox River Trail at a few points.
+                    <br>
+                    Source: <a href="https://en.wikipedia.org/wiki/DuPage_County,_Illinois">Wikipedia</a></p> 
 
                 <p>Even with the benefit of a high quality forest preserve and park district, the suburban landscape in Dupage County presents challenges for citizens who seek nearby natural amenities. The built environment contains a patchwork of dedicated bike paths and walkable sidewalks. A driving ethos that minimizes the rights of bicyclists and runners creates diminishes the possibility for an impromptu ride or run in the landscape of housing developments. Several studies has found that the presents of community amenities creates a sense of "community" and belonging that is often lost in the suburbs.</p>
 
@@ -171,8 +178,7 @@
             <li>Perform geoprocessing (e.g. spatial analysis) using the buffer tool</li>
             <li>Using QuickOSM to acquire OSM tags to expedite the data acquisition procress by querying key values of map data</li>
             <li>Using QuickOSM Processing Toolbox to remove unnecessary data fields</li>
-            <li>Refine the symbology process of point, line, and polygon features by exploring the tools and methods in Qgis</li>
-            <li>Adding multiple ground control points using Add Point feature (found in the Georefencer tool)</li>
+            <li>Refine the symbology process of point, line, and polygon features by exploring the tools and methods in QGIS</li>
             <li>Creating vector data layers such as points, lines, and polygons using Qgis tools (Layer>Create Layer)</li>
             <li>Using the Select by Location tool to cafes that intersect one mile buffers around each park. Using this tool for this process preserved key attribute information which would have been lost if the clip or intersection tool were used.</li>
             <li>Effort was also spent creating the proper visual hierarchy for the maps and ensuring an attractive map product. Coordinate Reference System: NAD83(HARN)/Illinois East (ftUS) EPSG:3443. Basemap: Open Street Map. Other data provided by The Appalachian Trail Conservancy (trail shapefile), Natural Earth (10m graticule).</li>
@@ -181,6 +187,7 @@
                 <!-- Change the following contacts to your personal brand, whatever you want it to be! -->
 
             </ul>
+            <!-- Of this list of GeoJSON, only the last one is in the proper CRS. Just remember that whenever you post a GeoJSON on a website for download, make sure that it is in the CRS EPSG: 4326. -->
             <p><a href="geojson/Bike Trails2.geojson">link to the bike trails GeoJSON</a></p>
             <p><a href="geojson/Parks2.geojson">link to the parks GeoJSON</a></p>
             <p><a href="geojson/DupageCounty%20Amenity%20Points.geojson">link to the Dupage County Amenity Points GeoJSON</a></p>
